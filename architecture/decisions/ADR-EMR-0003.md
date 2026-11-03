@@ -3,7 +3,7 @@ id: ADR-EMR-0003
 title: Every API call carries an OAuth 2.0 bearer token from the product's identity provider
 status: accepted
 date: 2026-11-02
-repos: [vrixel-emr/emr-intake-api]
+repos: []          # product-wide; applies to every repo the EMR creates
 ---
 # ADR-EMR-0003: Every API call carries an OAuth 2.0 bearer token from the product's identity provider
 

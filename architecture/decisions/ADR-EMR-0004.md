@@ -3,7 +3,7 @@ id: ADR-EMR-0004
 title: Product agents use models only through the EMR's LLM gateway
 status: accepted
 date: 2026-11-02
-repos: []
+repos: []          # product-wide
 ---
 # ADR-EMR-0004: Product agents use models only through the EMR's LLM gateway
 

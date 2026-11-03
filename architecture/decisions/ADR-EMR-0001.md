@@ -3,7 +3,7 @@ id: ADR-EMR-0001
 title: FHIR R4 at every system boundary
 status: accepted
 date: 2026-07-01
-repos: [vrixel-emr/emr-intake-api, vrixel-emr/emr-web]
+repos: []          # product-wide; applies to every repo the EMR creates
 ---
 # ADR-EMR-0001: FHIR R4 at every system boundary
 

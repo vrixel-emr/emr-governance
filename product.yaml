@@ -15,11 +15,10 @@ runtime:
 budget_usd: 150
 critic_threshold: 0.8
 max_loops: 3
-repos:
-- name: vrixel-emr/emr-intake-api
-  role: provider
-- name: vrixel-emr/emr-web
-  role: consumer
+# No repos yet: the first feature's design proposes them (each with an ADR), G4 approves them and
+# the SDLC creates them from the platform templates, then registers them here by pull request.
+repos: []
+repo_prefix: emr-
 approvers:
   g1:
   - emr-product-owner
