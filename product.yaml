@@ -15,24 +15,20 @@ runtime:
 budget_usd: 150
 critic_threshold: 0.8
 max_loops: 3
+# Approvers are GitHub teams (<org>/<team-slug>) or users (<login>). Only they can decide a gate.
+# One approver for now; add teams per gate as the EMR team grows.
 # No repos yet: the first feature's design proposes them (each with an ADR), G4 approves them and
 # the SDLC creates them from the platform templates, then registers them here by pull request.
 repos: []
 repo_prefix: emr-
 approvers:
-  g1:
-  - emr-product-owner
-  g2:
-  - emr-product-owner
-  g3:
-  - emr-design-lead
-  - emr-clinician-reviewer
-  g4:
-  - emr-architect
-  g5:
-  - emr-tech-lead
-  g6:
-  - emr-release-manager
+  g1: [vallab76]
+  g2: [vallab76]
+  g3: [vallab76]
+  g4: [vallab76]
+  g5: [vallab76]
+  g6: [vallab76]
+  security: [vallab76]   # accepts or rejects blocking security findings
 high_risk_paths:
 - src/auth/
 - migrations/
