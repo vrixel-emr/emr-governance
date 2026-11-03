@@ -3,7 +3,7 @@ id: ADR-EMR-0002
 title: Services in Java 21 and Spring Boot; Rust only for measured hot paths
 status: accepted
 date: 2026-11-02
-repos: [vrixel-emr/emr-intake-api]
+repos: []          # product-wide; applies to every repo the EMR creates
 ---
 # ADR-EMR-0002: Services in Java 21 and Spring Boot; Rust only for measured hot paths
 
